@@ -182,7 +182,7 @@ namespace mocap_optitrack
         }
         else
         {
-          result.successful = false;
+          result.successful = true;
           result.reason     = "Parameter is not dynamic reconfigurable";
           RCLCPP_WARN(node->get_logger(),
                       "Parameter %s not dynamically reconfigurable",

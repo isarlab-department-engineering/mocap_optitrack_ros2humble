@@ -39,11 +39,11 @@ from launch.actions import ExecuteProcess
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='mocap_optitrack',
+            package='mocap_optitrack_ros2humble',
             executable='mocap_node',
             name='mocap_node',
             parameters=[
-                os.path.join(get_package_share_directory('mocap_optitrack'), 'config', 'mocap.yaml')
+                os.path.join(get_package_share_directory('mocap_optitrack_ros2humble'), 'config', 'mocap.yaml')
             ],
             output='screen')
     ])

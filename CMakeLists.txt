@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(mocap_optitrack)
+project(mocap_optitrack_ros2humble)
 
 # Default to c++14
 if(NOT CMAKE_CXX_STANDARD)
